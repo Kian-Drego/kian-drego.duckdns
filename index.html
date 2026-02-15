@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+        h1 {
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .link-button {
+            display: block;
+            text-decoration: none;
+            background-color: #0077b5; /* LinkedIn Blue */
+            color: white;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+        .link-button:hover {
+            transform: translateY(-3px);
+            filter: brightness(1.1);
+        }
+        /* Specific Colors */
+        .github { background-color: #333; }
+        .email { background-color: #ea4335; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Connect with Me</h1>
+        
+        <a href="mailto:yourname@email.com" class="link-button email">Email Me</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank" class="link-button">LinkedIn</a>
+        <a href="https://github.com/yourusername" target="_blank" class="link-button github">GitHub</a>
+    </div>
+
+</body>
+</html>
